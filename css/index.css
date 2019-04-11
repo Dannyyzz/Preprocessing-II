@@ -168,6 +168,9 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+hr {
+  border-top: 0.2em dashed #C0C0C0;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
