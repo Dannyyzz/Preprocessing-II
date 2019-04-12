@@ -168,8 +168,28 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-hr {
-  border-top: 0.2em dashed #C0C0C0;
+.nav-container {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.nav-container nav {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 25px 0;
+  margin-left: 10%;
+}
+.nav-container nav h1 {
+  margin-right: 30%;
+}
+.nav-container nav a {
+  text-decoration: none;
+  font-size: 1.8em;
+  color: black;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer {
   width: 100%;
@@ -227,4 +247,22 @@ hr {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.btn {
+  background-color: #17A2B8;
+  height: 45px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 800;
+}
+header {
+  border-bottom: 2px dashed #C0C0C0;
+}
+header img {
+  margin-bottom: 25px;
 }

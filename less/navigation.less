@@ -1,5 +1,26 @@
 // Navigation Styles here
 
-hr {
-    border-top: .2em dashed @silver;
+.nav-container {
+    border-bottom:  2px dashed @navigation-border;
+
+    nav {
+        .container;
+        display: flex;
+        padding: 25px 0;
+        margin-left: 10%;
+
+        h1 {
+            margin-right: 30%;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.8em;
+            color: @nav;
+            margin-left: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
