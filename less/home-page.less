@@ -6,6 +6,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
+    @media @mobile {
+      .mobile-center;
+    }
+
    
     
     .text-content {
@@ -17,8 +21,19 @@
       width: 48%;
       padding-left: 1%;
 
+      @media @mobile {
+        .mobile-center;
+        margin: 0 auto;
+
+      }
+
       img {
         border-radius: 10px;
+
+        @media @mobile {
+          .mobile-center;
+          margin-bottom: 20px;
+        }
       }
     }
   }
@@ -30,11 +45,20 @@
     .text-content {
       padding-left: 1%;
       padding-right: 0;
+
+      @media @mobile {
+        .mobile-center;
+      }
     }
 
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+
+      @media @mobile {
+        width: 100%;
+        .center;
+      }
     }
   }
 
@@ -44,6 +68,10 @@
 
     img {
       border-radius: 10px;
+    }
+
+    @media @mobile {
+      width: 100%;
     }
   }
 
